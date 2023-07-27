@@ -19,8 +19,8 @@ models:
           - not_null
 
 sources:
-  - name: chinook
-    database: chinook2
+  - name: chinook_data
+    database: chinook_db
     schema: public
     tables:
       - name: tracks

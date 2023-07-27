@@ -1,1 +1,1 @@
-select * from tracks
+select * from {{ source("chinook_data", "tracks") }}
