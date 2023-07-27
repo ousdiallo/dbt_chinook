@@ -1,0 +1,28 @@
+version : 2
+
+models:
+  - name: tracks_total
+    description: "la table des tracks"
+    columns:
+      - name: trackid
+        tests:
+          - unique
+          - not_null
+      - name: albumid
+        tests:
+          - not_null
+      - name: mediatypeid
+        tests:
+          - not_null
+      - name: genreid
+        tests:
+          - not_null
+
+sources:
+  - name: chinook
+    database: chinook2
+    schema: public
+    tables:
+      - name: tracks
+
+
