@@ -1,7 +1,7 @@
 version : 2
 
 models:
-  - name: tracks_total
+  - name: tracks
     description: "la table des tracks"
     columns:
       - name: trackid
@@ -24,5 +24,7 @@ sources:
     schema: public
     tables:
       - name: tracks
+      - name: artists
+      - name: albums
 
 
