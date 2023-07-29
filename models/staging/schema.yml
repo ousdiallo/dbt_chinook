@@ -26,5 +26,7 @@ sources:
       - name: tracks
       - name: artists
       - name: albums
+      - name: invoices
+      - name: invoice_items
 
 
