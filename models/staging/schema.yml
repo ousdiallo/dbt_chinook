@@ -20,7 +20,7 @@ models:
 
 sources:
   - name: chinook_data
-    database: chinook_db
+    database: chinookdb
     schema: public
     tables:
       - name: tracks
